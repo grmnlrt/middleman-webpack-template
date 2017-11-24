@@ -1,1 +1,2 @@
-// This is where it all goes :)
+import { loadDynamicBannerText } from './components/test';
+loadDynamicBannerText();
