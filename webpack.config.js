@@ -25,6 +25,9 @@ module.exports = {
         test: /\.js$/,
         exclude: /(node_modules)/,
         loader: "babel-loader",
+        options :  {
+          presets  :  [ 'es2016' ]
+        },
       },
       {
         test: /\.(sass|scss)$/,
