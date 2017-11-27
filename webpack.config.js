@@ -40,7 +40,7 @@ module.exports = {
   },
   output: {
     path: __dirname + "/build/javascripts",
-    filename: "[name].bundle.js",
+    filename: "[name].js",
   },
 
   plugins: [
