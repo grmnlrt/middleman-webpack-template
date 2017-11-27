@@ -1,2 +1,2 @@
-import { loadDynamicBannerText } from './components/test';
+import { loadDynamicBannerText } from './components/title';
 loadDynamicBannerText();
