@@ -37,7 +37,7 @@ configure :build do
   # ignore { |path| path =~ /\/(.*)\.js|css$/ && $1 != "all" && $1 != "vendor" }
 
   # Minify Javascript on build
-  activate :minify_javascript
+  # activate :minify_javascript
 
   # For example, change the Compass output style for deployment
   activate :minify_css
