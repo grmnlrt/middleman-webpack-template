@@ -34,7 +34,7 @@ page '/*.txt', layout: false
 
 configure :build do
   # "Ignore" JS and CSS so webpack has full control.
-  ignore { |path| path =~ /\/(.*)\.js|css$/ && $1 != "all" && $1 != "vendor" }
+  # ignore { |path| path =~ /\/(.*)\.js|css$/ && $1 != "all" && $1 != "vendor" }
 
   # Minify Javascript on build
   activate :minify_javascript
